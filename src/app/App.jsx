@@ -8,6 +8,7 @@ const AppRoot = () => (
     <>
         <GlobalStyle />
         <Router />
+        
     </>
 );
 

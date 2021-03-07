@@ -1,16 +1,14 @@
-import React from 'react';
-import Example from 'Components/Example/Example';
+import React, { useState } from "react";
+import Header from "Components/Header/Header";
+import GetUsersF from "Components/GetUsersF/GetUsersF";
 
-const Homepage = () => {
-    return (
-        <>
-            <Example />
-        </>
-    );
-};
+const Homepage = () => (
+  <>
+    <Header />
+    <GetUsersF />
+  </>
+);
 
 export default Homepage;
 
-export { 
-    Homepage
-};
+export { Homepage };

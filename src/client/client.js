@@ -13,4 +13,3 @@ const client = (
 const appElement = document.getElementById('app');
 
 render(client, appElement);
-
