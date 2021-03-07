@@ -1,12 +1,9 @@
 {
-  "homepage": "http://hus42.github.io/solent-project",
   "name": "react-base",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --config ./webpack/webpack.dev.config.js"
   },
   "repository": {
