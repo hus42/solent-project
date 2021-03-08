@@ -16,10 +16,15 @@ The aim of this task is to produce a profile listing component that uses the [Ra
 
 **Requirements:**
 
-- On page load, 10 random profiles showing their avatar and name should be listed.
-- These profiles can be filtered by their name with a text input box.
-- When clicking one of the profile items, this needs to take the user to a new page or open a pop-up modal, that gives more details about the person they have clicked on.
-- It needs to match the designs given, be responsive, and use the assets provided.
+- On page load, 10 random profiles showing their avatar and name should be listed. (This is completed. currently getting 10 random users however, on the page load, the users will stay same as I have used "seed=" in the url as query string to generate the same set of users from the API)
+
+- These profiles can be filtered by their name with a text input box. (This is completed. If user input is empty shows all of the data, and then it converts the user's first name to lowercase then checks if it includes in filterString text as lowercase. I've used onTextChange in class component and onChange in functional component just to show you that we can use both. we can also use other options onKeyUp, etc but I believe the best one in this case will be onTextChange and onChange)
+
+- When clicking one of the profile items, this needs to take the user to a new page or open a pop-up modal, that gives more details about the person they have clicked on. (This is completed. I am parsing the data to query string then using them in the profile page by accessing the data in location.search)
+
+
+- It needs to match the designs given, be responsive, and use the assets provided.(This is completed, I have used more than one options when using styled component to show that we can use alternative ways. We can also use if statements if needed. I have also showed that we can change the size of the SVG files more than one way. Such as; from SVG file, by overwriting from inline CSS or etc.)
+
 - Only needs to work in Chrome.
 
 ## Submission
